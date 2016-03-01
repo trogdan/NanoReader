@@ -20,9 +20,11 @@ android {
         minSdkVersion 16
         targetSdkVersion 22
     }
+    sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/values-v21'] } }
 }
 
 dependencies {
+    compile 'com.android.support:design:22.2.0'
     compile 'com.android.support:support-v4:22.0.0'
     compile 'com.android.support:support-v13:22.0.0'
     compile 'com.android.support:appcompat-v7:22.0.0'
