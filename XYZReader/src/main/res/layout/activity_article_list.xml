@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/theme_primary_300"
-            android:elevation="8dp"
+            android:elevation="@dimen/appbar_elevation"
             app:layout_scrollFlags="scroll|enterAlways" >
 
             <android.support.v7.widget.Toolbar
