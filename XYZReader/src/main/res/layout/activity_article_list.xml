@@ -17,7 +17,6 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             android:background="@color/theme_primary_300"
-            app:contentScrim="@color/theme_primary_300"
             app:expandedTitleMarginBottom="@dimen/collapse_title_margin_bottom"
             app:expandedTitleMarginEnd="@dimen/collapse_title_margin_end"
             app:expandedTitleMarginStart="@dimen/collapse_title_margin_start"
