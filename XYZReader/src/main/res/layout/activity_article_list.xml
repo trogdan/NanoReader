@@ -18,9 +18,9 @@
             android:fitsSystemWindows="true"
             android:background="@color/theme_primary_300"
             app:contentScrim="@color/theme_primary_300"
-            app:expandedTitleMarginBottom="32dp"
-            app:expandedTitleMarginEnd="64dp"
-            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginBottom="@dimen/collapse_title_margin_bottom"
+            app:expandedTitleMarginEnd="@dimen/collapse_title_margin_end"
+            app:expandedTitleMarginStart="@dimen/collapse_title_margin_start"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             android:elevation="@dimen/appbar_elevation" >
 
